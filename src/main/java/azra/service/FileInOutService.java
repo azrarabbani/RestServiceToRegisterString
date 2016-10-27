@@ -13,8 +13,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import org.springframework.stereotype.Service;
 
 /**
- * file in out service
- * sazrai@hotmail.com
+ * file in out service sazrai@hotmail.com
  */
 @Service
 public class FileInOutService implements InOutService {
@@ -29,7 +28,8 @@ public class FileInOutService implements InOutService {
 	}
 
 	/**
-	 * @param fileName name of file
+	 * @param fileName
+	 *            name of file
 	 */
 	public FileInOutService(String fileName) {
 		this.fileName = fileName;
